@@ -1,7 +1,19 @@
-.header{
-    border: 1px solid red;
-    border-radius: 10px;
-    width: auto;
-    background: green;
+.jumbotron .container h1{
     text-align: center;
+    color: dimgray;
+}
+
+.jumbotron .container p{
+    text-align: center;
+}
+
+.btn.btn-primary.btn-lg {
+    color: mediumseagreen;
+    background-color: dimgrey;
+    border-color: mediumseagreen;
+}
+
+.btn.btn-primary.btn-lg:hover {
+    background-color: mediumseagreen;
+    color: dimgrey;
 }
