@@ -1,6 +1,11 @@
+.jumbotron{
+    background-color: transparent !important;
+}
+
 .jumbotron .container h1{
     text-align: center;
     color: dimgray;
+    background: none;
 }
 
 .jumbotron .container p{
@@ -16,4 +21,28 @@
 .btn.btn-primary.btn-lg:hover {
     background-color: mediumseagreen;
     color: dimgrey;
+}
+
+#learn-more{
+    background: rgba(255,255,255,0.5);
+    border: solid 2px mediumseagreen;
+    font-size: 2em;
+    border-radius: 4px;
+    padding: 1em;
+}
+
+#learn-more h2{
+    text-align: center;
+}
+
+#launch{
+    text-align: center;
+    color: mediumseagreen;
+}
+
+body{
+    background-image: url("San_Diego_Reflecting_Pond.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
 }
