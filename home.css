@@ -1,3 +1,10 @@
+body{
+    background-image: url("San_Diego_Reflecting_Pond.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+}
+
 .jumbotron{
     background-color: transparent !important;
 }
@@ -41,14 +48,29 @@
     color: mediumseagreen;
 }
 
+#sign-me-up{
+    text-align: center;
+}
+
 #launch{
     text-align: center;
     color: mediumseagreen;
 }
 
-body{
-    background-image: url("San_Diego_Reflecting_Pond.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
+#sign-up{
+    background: rgba(255,255,255,0.5);
+    padding: 1em;
+    font-size: 2em;
+    border: solid 2px mediumseagreen;
+    border-radius: 4px;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+#sign-up h1{
+    text-align: center;
+}
+
+p#submit{
+    text-align: center;
 }
