@@ -8,6 +8,11 @@
     background: none;
 }
 
+.jumbotron .container h1:hover{
+    text-align: center;
+    color: mediumseagreen;
+}
+
 .jumbotron .container p{
     text-align: center;
 }
@@ -31,8 +36,9 @@
     padding: 1em;
 }
 
-#learn-more h2{
+#learn-more h1{
     text-align: center;
+    color: mediumseagreen;
 }
 
 #launch{
