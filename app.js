@@ -14,5 +14,7 @@ $(document).ready(function(){
         $("input[name='Email']").val("");
         $("input[name='Pass']").val("");
         alert("Thanks for signing up! You should receive a confirmation email soon!");
+        $("#learn-more").hide()
+        $("#sign-up").hide()
     });
 });
